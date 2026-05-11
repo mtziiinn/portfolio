@@ -15,7 +15,8 @@ import {
   SiLua, 
   SiGit, 
   SiDocker, 
-  SiTailwindcss 
+  SiTailwindcss,
+  SiDiscord
 } from "react-icons/si"
 
 const skills = [
@@ -24,6 +25,7 @@ const skills = [
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   { name: "Next.js", icon: SiNextdotjs, color: "" },
+  { name: "Discord.js", icon: SiDiscord, color: "#5865F2" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
   { name: "MySQL", icon: SiMysql, color: "#4479A1" },
   { name: "Express.js", icon: SiExpress, color: "" },
