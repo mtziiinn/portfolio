@@ -34,7 +34,7 @@ const statusLabels: Record<DiscordStatus, string> = {
   offline: "Offline",
 }
 
-const DISCORD_USER_ID = "1318033315313696798"
+const DISCORD_USER_ID = "1061397602916126771"
 
 export function DiscordStatus() {
   const [data, setData] = useState<LanyardData | null>(null)
