@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Matheus Gonçalves | Full Stack Developer',
   description: 'Desenvolvedor Full Stack focado em back-end, construindo APIs robustas, sistemas de autenticação e automações.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/icon.svg?v=2',
   },
 }
 
@@ -31,6 +31,7 @@ export default function RootLayout({
     </html>
   )
 }
+
 
 
 
