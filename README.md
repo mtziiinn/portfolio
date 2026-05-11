@@ -1,35 +1,44 @@
-# portfolio-u4
+﻿# Matheus Gonçalves | Full Stack Developer
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+Portfólio pessoal moderno, focado em performance e experiência do usuário, destacando habilidades em desenvolvimento Back-end e APIs.
 
-## Built with v0
+## 🚀 Funcionalidades
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+- **Design Responsivo:** Adaptado para todos os tamanhos de tela.
+- **Modo Claro/Escuro:** Suporte nativo a temas via next-themes.
+- **Status do Discord Real-time:** Integração com a Lanyard API para exibir status atualizado.
+- **Animações Fluídas:** Utilização de framer-motion para transições e efeitos de scroll.
+- **Estatísticas Dinâmicas:** Contadores animados para destacar conquistas.
+- **Otimização de Performance:** Construído sobre o Next.js 16 para carregamento rápido.
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_JPktSFXLJKSORRGXExptWFnHaNNc)
+## 🛠️ Tecnologias
 
-## Getting Started
+- **Framework:** Next.js 16 (App Router)
+- **Linguagem:** TypeScript
+- **Estilização:** Tailwind CSS v4
+- **Componentes:** Shadcn/UI / Radix UI
+- **Animações:** Framer Motion
+- **Ícones:** Lucide React
 
-First, run the development server:
+## 📂 Estrutura do Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- app/: Rotas e layout da aplicação.
+- components/portfolio/: Componentes específicos do domínio do portfólio.
+- components/ui/: Componentes de interface reutilizáveis.
+- hooks/: Hooks personalizados para lógica de estado.
+- lib/: Utilitários e configurações globais.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Instalação e Execução
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone o repositório:
+   git clone <url-do-repositorio>
+2. Instale as dependências:
+   npm install
+3. Inicie o servidor de desenvolvimento:
+   npm run dev
+4. Gere o build de produção:
+   npm run build
 
-## Learn More
+## 📄 Licença
 
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
-
-<a href="https://v0.app/chat/api/kiro/clone/mtziiinn/portfolio-u4" alt="Open in Kiro"><img src="https://pdgvvgmkdvyeydso.public.blob.vercel-storage.com/open%20in%20kiro.svg?sanitize=true" /></a>
+Este projeto está sob a licença MIT.
