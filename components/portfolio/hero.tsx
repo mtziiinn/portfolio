@@ -15,7 +15,7 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary text-muted-foreground text-sm mb-8">
             <MapPin className="w-4 h-4" />
-            <span>Brasil</span>
+            <span>Brazil</span>
           </div>
         </motion.div>
 
@@ -25,7 +25,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-bold text-foreground mb-6 tracking-tight"
         >
-          Seu Nome
+          Matheus Gonçalves
         </motion.h1>
 
         <motion.p
@@ -34,7 +34,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-xl md:text-2xl text-accent font-medium mb-8"
         >
-          Desenvolvedor Full Stack
+          Full Stack Developer
         </motion.p>
 
         <motion.div
@@ -44,7 +44,7 @@ export function Hero() {
           className="flex items-center justify-center gap-6"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/mtziiinn"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-secondary hover:bg-border transition-colors text-foreground"
@@ -53,7 +53,7 @@ export function Hero() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://discord.com"
+            href="https://discord.com/users/yqc8"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-secondary hover:bg-border transition-colors text-foreground"
@@ -64,7 +64,7 @@ export function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:seu@email.com"
+            href="mailto:matheusgoncalves1502@gmail.com"
             className="p-3 rounded-full bg-secondary hover:bg-border transition-colors text-foreground"
             aria-label="Email"
           >

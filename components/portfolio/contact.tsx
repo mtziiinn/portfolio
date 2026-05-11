@@ -32,7 +32,7 @@ export function Contact() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:seu@email.com"
+              href="mailto:matheusgoncalves1502@gmail.com"
               className="group flex items-center gap-3 px-8 py-4 rounded-full bg-accent text-accent-foreground font-medium hover:opacity-90 transition-all"
             >
               <Mail className="w-5 h-5" />
@@ -41,7 +41,7 @@ export function Contact() {
             </a>
             
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/905313779827"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-3 px-8 py-4 rounded-full bg-secondary border border-border text-foreground font-medium hover:border-accent transition-all"
