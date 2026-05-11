@@ -1,9 +1,10 @@
-"use client"
+﻿"use client"
 
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { Mail, MessageSquare, ArrowUpRight } from "lucide-react"
+import { Mail, ArrowUpRight } from "lucide-react"
+import { SiWhatsapp } from "react-icons/si"
 
 export function Contact() {
   const ref = useRef(null)
@@ -46,7 +47,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="group flex items-center gap-3 px-8 py-4 rounded-full bg-secondary border border-border text-foreground font-medium hover:border-accent transition-all"
             >
-              <MessageSquare className="w-5 h-5" />
+              <SiWhatsapp className="w-5 h-5 text-[#25D366]" />
               WhatsApp
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
