@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+      {
         url: '/icon.svg?v=1',
         type: 'image/svg+xml',
       },
@@ -36,4 +40,5 @@ export default function RootLayout({
     </html>
   )
 }
+
 
