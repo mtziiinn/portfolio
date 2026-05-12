@@ -1,4 +1,4 @@
-ï»¿"use client"
+"use client"
 
 import { motion } from "framer-motion"
 import { Github, Mail, MapPin } from "lucide-react"
@@ -19,7 +19,7 @@ export function Hero() {
           <div className="relative w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden ring-4 ring-accent/30">
             <Image
               src="/images/profile.png"
-              alt="Matheus GonÃ§alves"
+              alt="Matheus Gonçalves"
               fill
               className="object-cover"
               priority
@@ -45,7 +45,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-7xl font-bold text-foreground mb-6 tracking-tight"
         >
-          Matheus GonÃ§alves
+          Matheus Gonçalves
         </motion.h1>
 
         <motion.div
@@ -82,7 +82,7 @@ export function Hero() {
             <SiDiscord className="w-5 h-5" />
           </a>
           <a
-            href="mailto:matheusgoncalves1502@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=matheusgoncalves1502@gmail.com"
             className="p-3 rounded-full bg-secondary hover:bg-border transition-colors text-foreground"
             aria-label="Email"
           >
@@ -93,3 +93,4 @@ export function Hero() {
     </section>
   )
 }
+

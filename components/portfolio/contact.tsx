@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
@@ -28,12 +28,12 @@ export function Contact() {
           </h3>
           
           <p className="text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Estou sempre aberto a novos projetos e oportunidades. Se você tem uma ideia ou projeto em mente, entre em contato!
+            Estou sempre aberto a novos projetos e oportunidades. Se voc� tem uma ideia ou projeto em mente, entre em contato!
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:matheusgoncalves1502@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=matheusgoncalves1502@gmail.com"
               className="group flex items-center gap-3 px-8 py-4 rounded-full bg-accent text-accent-foreground font-medium hover:opacity-90 transition-all"
             >
               <Mail className="w-5 h-5" />
@@ -57,3 +57,4 @@ export function Contact() {
     </section>
   )
 }
+
