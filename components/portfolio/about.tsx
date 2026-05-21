@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
@@ -20,17 +20,17 @@ export function About() {
             Sobre mim
           </h2>
           
-          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed text-pretty">
             <p>
-              Sou desenvolvedor full stack desde 2020. Meu foco é o back-end, é onde realmente me encontro.
+              Desenvolvedor <span className="text-foreground font-medium">Full Stack focado em Back-end</span> com trajetória iniciada em 2020. Minha expertise reside na construção de ecossistemas robustos e escaláveis, onde a lógica complexa e a performance são as prioridades.
             </p>
             
             <p>
-              Tenho experiência sólida construindo soluções completas, com destaque para APIs, sistemas de autenticação, integrações e automações. Apesar de atuar como full stack, sempre preferi estar nos bastidores da aplicação, lidando com lógica, performance e estrutura de sistemas.
+              Ao longo dos anos, especializei-me no desenvolvimento de <span className="text-foreground font-medium">APIs de alta disponibilidade, sistemas de autenticação seguros e automações inteligentes</span>. Embora domine o ciclo completo de uma aplicação, é na arquitetura de sistemas e na manipulação eficiente de dados onde entrego meu maior valor técnico.
             </p>
             
             <p>
-              Movido por desafios, gosto de construir sistemas inteligentes, bem estruturados e que realmente resolvam problemas. Tenho familiaridade com metodologias ágeis, versionamento com Git e deploy automatizado.
+              Sou movido pela resolução de problemas reais através de código limpo e bem estruturado. Tenho domínio sobre ferramentas modernas como <span className="text-foreground font-medium">Node.js, TypeScript e diversos bancos de dados (SQL e NoSQL)</span>, sempre aplicando boas práticas de versionamento, metodologias ágeis e deploy automatizado para garantir entregas de alta qualidade.
             </p>
           </div>
         </motion.div>
