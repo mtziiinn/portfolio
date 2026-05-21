@@ -16,7 +16,15 @@ import {
   SiGit, 
   SiDocker, 
   SiTailwindcss,
-  SiDiscord
+  SiDiscord,
+  SiDrizzle,
+  SiPrisma,
+  SiMongodb,
+  SiSupabase,
+  SiZod,
+  SiShadcnui,
+  SiReactquery,
+  SiMercadopago
 } from "react-icons/si"
 
 const skills = [
@@ -26,13 +34,21 @@ const skills = [
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   { name: "Next.js", icon: SiNextdotjs, color: "" },
   { name: "Discord.js", icon: SiDiscord, color: "#5865F2" },
+  { name: "Drizzle ORM", icon: SiDrizzle, color: "#C5F74F" },
+  { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
+  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+  { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
   { name: "MySQL", icon: SiMysql, color: "#4479A1" },
+  { name: "Zod", icon: SiZod, color: "#3E67B1" },
   { name: "Express.js", icon: SiExpress, color: "" },
+  { name: "TanStack Query", icon: SiReactquery, color: "#FF4154" },
+  { name: "Mercado Pago", icon: SiMercadopago, color: "#009EE3" },
+  { name: "Shadcn/UI", icon: SiShadcnui, color: "" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
   { name: "Lua", icon: SiLua, color: "#000080" },
   { name: "Git", icon: SiGit, color: "#F05032" },
   { name: "Docker", icon: SiDocker, color: "#2496ED" },
-  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
 ]
 
 export function Skills() {
@@ -51,7 +67,7 @@ export function Skills() {
             Habilidades
           </h2>
           <p className="text-muted-foreground mb-10">
-            Essas são minhas principais habilidades de desenvolvimento.
+            Essas são minhas principais habilidades de desenvolvimento, focadas em criar soluções robustas e escaláveis.
           </p>
 
           <div className="flex flex-wrap gap-3">
