@@ -15,7 +15,7 @@ export function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/mtziiinn"
+            href="https://github.com/mtziiinn/mtziiinn"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-accent transition-colors"
