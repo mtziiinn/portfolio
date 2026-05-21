@@ -7,21 +7,27 @@ import { Github, ExternalLink } from "lucide-react"
 
 const projects = [
   {
+    title: "Portfolio Pessoal",
+    description: "Meu site pessoal desenvolvido com Next.js 15+, Tailwind CSS e Framer Motion, focado em performance, SEO e uma interface moderna.",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+    github: "https://github.com/mtziiinn/portfolio",
+  },
+  {
     title: "Sistema SaaS",
     description: "Uma plataforma complexa com foco em escalabilidade, gerenciamento de dados e funcionalidades modernas de software como serviço.",
-    tech: ["TypeScript", "Next.js", "Node.js"],
+    tech: ["TypeScript", "Next.js", "Node.js", "Drizzle ORM"],
     github: "https://github.com/mtziiinn/SAAS",
   },
   {
     title: "Sistema de Tickets",
     description: "Solução para gerenciamento de chamados e suporte, focada em organização de fluxo de trabalho e persistência de dados.",
-    tech: ["TypeScript", "Backend", "API"],
+    tech: ["TypeScript", "Backend", "MongoDB", "Node.js"],
     github: "https://github.com/mtziiinn/TICKET",
   },
   {
     title: "Barber Landing Page",
-    description: "Landing page profissional e responsiva para barbearias, focada em conversão e experiência do usuário.",
-    tech: ["TypeScript", "UI/UX", "Tailwind"],
+    description: "Landing page profissional e responsiva para barbearias, focada em conversão e experiência do usuário com integração de pagamentos.",
+    tech: ["TypeScript", "Tailwind", "Supabase", "Mercado Pago"],
     github: "https://github.com/mtziiinn/BARBER-LANDING",
   }
 ]
