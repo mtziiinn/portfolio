@@ -1,7 +1,7 @@
 ﻿"use client"
 
 import { motion } from "framer-motion"
-import { Github, Mail, MapPin } from "lucide-react"
+import { Github, Mail, MapPin, Linkedin } from "lucide-react"
 import { SiDiscord } from "react-icons/si"
 import Image from "next/image"
 import { TypingAnimation } from "./typing-animation"
@@ -73,6 +73,15 @@ export function Hero() {
             <Github className="w-5 h-5" />
           </a>
           <a
+            href="https://www.linkedin.com/in/matheus-gon%C3%A7alves-dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 rounded-full bg-secondary hover:bg-border transition-colors text-foreground"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a
             href="https://discord.com/users/yqc8"
             target="_blank"
             rel="noopener noreferrer"
@@ -93,4 +102,3 @@ export function Hero() {
     </section>
   )
 }
-
