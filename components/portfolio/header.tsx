@@ -1,7 +1,7 @@
 ﻿"use client"
 
 import { motion } from "framer-motion"
-import { Logo } from "./logo"
+import MatheusGoncalvesLogo from "@/components/MatheusGoncalvesLogo"
 import { ThemeToggle } from "./theme-toggle"
 import { DiscordStatus } from "./discord-status"
 import { Github, Linkedin } from "lucide-react"
@@ -15,7 +15,7 @@ export function Header() {
       className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/80 backdrop-blur-sm border-b border-border/50"
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-        <Logo />
+        <MatheusGoncalvesLogo size="md" />
         
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex items-center gap-4 mr-4">
