@@ -2,43 +2,72 @@
 
 Portfólio pessoal moderno, focado em performance e experiência do usuário, destacando habilidades em desenvolvimento Back-end e APIs.
 
-## 🚀 Funcionalidades
+🌐 **Live:** [mts7.vercel.app](https://mts7.vercel.app/)
+
+## Funcionalidades
 
 - **Design Responsivo:** Adaptado para todos os tamanhos de tela.
-- **Modo Claro/Escuro:** Suporte nativo a temas via next-themes.
-- **Status do Discord Real-time:** Integração com a Lanyard API para exibir status atualizado.
-- **Animações Fluídas:** Utilização de framer-motion para transições e efeitos de scroll.
-- **Estatísticas Dinâmicas:** Contadores animados para destacar conquistas.
-- **Otimização de Performance:** Construído sobre o Next.js 16 para carregamento rápido.
+- **Modo Claro/Escuro:** Suporte nativo a temas via next-themes (dark mode padrão).
+- **Status do Discord em Tempo Real:** Integração com a Lanyard API para exibir status online/ocupado/ausente, incluindo jogo atual.
+- **Animações Fluídas:** Framer Motion para transições, scroll revealing e typing animation.
+- **Efeito de Mouse:** Gradiente radial que segue o cursor do mouse.
+- **Estatísticas Dinâmicas:** Contadores animados destacando projetos, linhas de código e anos de experiência.
+- **Skills Interativas:** 21 habilidades técnicas exibidas com ícones coloridos.
+- **Otimização de Performance:** Next.js 16 com Turbopack e imagens otimizadas.
+- **Analytics:** Monitoramento via Vercel Analytics (apenas em produção).
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Framework:** Next.js 16 (App Router)
-- **Linguagem:** TypeScript
+- **Linguagem:** TypeScript 5 (strict mode)
+- **Biblioteca:** React 19
 - **Estilização:** Tailwind CSS v4
-- **Componentes:** Shadcn/UI / Radix UI
+- **Componentes:** Shadcn/UI + Radix UI
 - **Animações:** Framer Motion
-- **Ícones:** Lucide React
+- **Ícones:** Lucide React + React Icons
+- **Formulários:** React Hook Form + Zod
+- **Temas:** next-themes
+- **Analytics:** Vercel Analytics
+- **Fontes:** Geist + Geist Mono (via next/font)
 
-## 📂 Estrutura do Projeto
+## Estrutura
 
-- app/: Rotas e layout da aplicação.
-- components/portfolio/: Componentes específicos do domínio do portfólio.
-- components/ui/: Componentes de interface reutilizáveis.
-- hooks/: Hooks personalizados para lógica de estado.
-- lib/: Utilitários e configurações globais.
+```
+app/                     # Rotas e layout
+  layout.tsx             # Layout root (fontes, providers, metadata)
+  page.tsx               # Página principal (seções em ordem)
+  globals.css            # Estilos globais e tema
+components/
+  portfolio/             # Componentes específicos do portfólio
+    header.tsx           # Navbar fixa + Discord status + theme toggle
+    hero.tsx             # Seção inicial com typing animation
+    about.tsx            # Biografia
+    stats.tsx            # Contadores animados
+    skills.tsx           # Grid de habilidades técnicas
+    projects.tsx         # Grid de projetos
+    contact.tsx          # Seção de contato
+    footer.tsx           # Rodapé
+    discord-status.tsx   # Status Discord via Lanyard API
+    mouse-effect.tsx     # Efeito de gradiente no cursor
+    typing-animation.tsx # Efeito de digitação
+    theme-toggle.tsx     # Alternador claro/escuro
+  ui/                    # ~60 componentes Shadcn/UI reutilizáveis
+hooks/                   # Custom hooks (use-mobile, use-toast)
+lib/                     # Utilitários (cn, tailwind-merge)
+public/                  # Assets estáticos
+```
 
-## 🔧 Instalação e Execução
+## Instalação
 
-1. Clone o repositório:
-   git clone <url-do-repositorio>
-2. Instale as dependências:
-   npm install
-3. Inicie o servidor de desenvolvimento:
-   npm run dev
-4. Gere o build de produção:
-   npm run build
+```bash
+git clone <url-do-repositorio>
+cd portfolio
+npm install
+npm run dev     # Servidor de desenvolvimento
+npm run build   # Build de produção
+npm run lint    # Verificação de lint
+```
 
-## 📄 Licença
+## Licença
 
-Este projeto está sob a licença MIT.
+MIT
