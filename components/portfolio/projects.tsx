@@ -29,6 +29,12 @@ const projects = [
     description: "Landing page profissional e responsiva para barbearias, focada em conversão e experiência do usuário com integração de pagamentos.",
     tech: ["TypeScript", "Tailwind", "Supabase", "Mercado Pago"],
     github: "https://github.com/mtziiinn/BARBER-LANDING",
+  },
+  {
+    title: "Pro-Auth-API",
+    description: "API REST de autenticação completa com JWT, Refresh Token, Prisma 7 e Redis, com controle de acesso RBAC, verificação de email e documentação Swagger.",
+    tech: ["Node.js", "Express", "Prisma", "Redis", "JWT"],
+    github: "https://github.com/mtziiinn/Pro-Auth-API",
   }
 ]
 
