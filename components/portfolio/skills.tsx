@@ -24,7 +24,8 @@ import {
   SiZod,
   SiShadcnui,
   SiReactquery,
-  SiMercadopago
+  SiMercadopago,
+  SiRedis
 } from "react-icons/si"
 
 const skills = [
@@ -36,6 +37,7 @@ const skills = [
   { name: "Discord.js", icon: SiDiscord, color: "#5865F2" },
   { name: "Drizzle ORM", icon: SiDrizzle, color: "#C5F74F" },
   { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
+  { name: "Redis", icon: SiRedis, color: "#FF4438" },
   { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
   { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
