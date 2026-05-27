@@ -47,7 +47,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="group flex items-center gap-3 px-8 py-4 rounded-full bg-secondary border border-border text-foreground font-medium hover:border-accent transition-all"
             >
-              <SiWhatsapp className="w-5 h-5 text-white" />
+              <SiWhatsapp className="w-5 h-5" />
               WhatsApp
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
