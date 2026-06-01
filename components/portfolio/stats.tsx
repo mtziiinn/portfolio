@@ -38,9 +38,9 @@ function AnimatedCounter({ value, suffix = "" }: { value: number; suffix?: strin
 }
 
 const stats = [
-  { value: 10, label: "Projetos", suffix: "" },
-  { value: 50, label: "Linhas de código", suffix: "k" },
-  { value: 5, label: "Anos de experiência", suffix: "" },
+  { value: 6, label: "Projetos no GitHub", suffix: "" },
+  { value: 22, label: "Tecnologias dominadas", suffix: "" },
+  { value: 2, label: "Anos no GitHub", suffix: "" },
 ]
 
 export function Stats() {

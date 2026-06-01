@@ -22,7 +22,7 @@ export function About() {
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed text-pretty">
             <p>
-              Desenvolvedor <span className="text-foreground font-medium">Full Stack focado em Back-end</span> com trajetória iniciada em 2020. Minha expertise reside na construção de ecossistemas robustos e escaláveis, onde a lógica complexa e a performance são as prioridades.
+              Desenvolvedor <span className="text-foreground font-medium">Full Stack focado em Back-end</span> com experiência na construção de ecossistemas robustos e escaláveis, onde a lógica complexa e a performance são as prioridades.
             </p>
             
             <p>
