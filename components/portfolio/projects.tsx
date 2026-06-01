@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
@@ -25,10 +25,10 @@ const projects = [
     github: "https://github.com/mtziiinn/TICKET",
   },
   {
-    title: "Barber Landing Page",
-    description: "Landing page profissional e responsiva para barbearias, focada em conversão e experiência do usuário com integração de pagamentos.",
-    tech: ["TypeScript", "Tailwind", "Supabase", "Mercado Pago"],
-    github: "https://github.com/mtziiinn/BARBER-LANDING",
+    title: "FinTrack API",
+    description: "API de controle financeiro com autenticação JWT segura, controle de transações, metas mensais e geração automatizada de relatórios.",
+    tech: ["Java", "Spring Boot", "MySQL", "Docker", "JWT"],
+    github: "https://github.com/mtziiinn/fin-track-api",
   },
   {
     title: "Pro-Auth-API",

@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
@@ -25,13 +25,17 @@ import {
   SiShadcnui,
   SiReactquery,
   SiMercadopago,
-  SiRedis
+  SiRedis,
+  SiSpringboot,
+  SiOpenjdk
 } from "react-icons/si"
 
 const skills = [
   { name: "React", icon: SiReact, color: "#61DAFB" },
   { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+  { name: "Java", icon: SiOpenjdk, color: "#ED8B00" },
+  { name: "Spring Boot", icon: SiSpringboot, color: "#6DB33F" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   { name: "Next.js", icon: SiNextdotjs, color: "" },
   { name: "Discord.js", icon: SiDiscord, color: "#5865F2" },

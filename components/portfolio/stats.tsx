@@ -38,8 +38,8 @@ function AnimatedCounter({ value, suffix = "" }: { value: number; suffix?: strin
 }
 
 const stats = [
-  { value: 6, label: "Projetos no GitHub", suffix: "" },
-  { value: 22, label: "Tecnologias dominadas", suffix: "" },
+  { value: 7, label: "Projetos no GitHub", suffix: "" },
+  { value: 24, label: "Tecnologias dominadas", suffix: "" },
   { value: 4, label: "Anos de experiência", suffix: "" },
 ]
 

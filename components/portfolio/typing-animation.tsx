@@ -6,6 +6,8 @@ import { motion } from "framer-motion"
 const roles = [
   "Full Stack Developer",
   "Back-end Specialist",
+  "Java Developer",
+  "Spring Boot Specialist",
   "API Developer",
   "Node.js Expert",
   "TypeScript Dev",
