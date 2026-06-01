@@ -11,7 +11,7 @@ Portfólio pessoal moderno, focado em performance e experiência do usuário, de
 | 1 | **Header** | `header.tsx` | Navbar fixa com glassmorphism, logo "MG", links sociais, status Discord e toggle de tema |
 | 2 | **Hero** | `hero.tsx` | Foto de perfil, nome, typing animation: *Full Stack Developer → Back-end Specialist → API Developer → Node.js Expert → TypeScript Dev* |
 | 3 | **Sobre** | `about.tsx` | Carreira desde 2020, especialista em APIs de alta disponibilidade, autenticação e automações |
-| 4 | **Stats** | `stats.tsx` | +6 Projetos no GitHub · +22 Tecnologias dominadas · +2 Anos no GitHub (contadores animados) |
+| 4 | **Stats** | `stats.tsx` | +6 Projetos no GitHub · +22 Tecnologias dominadas · +4 Anos de experiência (contadores animados) |
 | 5 | **Skills** | `skills.tsx` | 22 habilidades com ícones coloridos (React, Node.js, Prisma, Redis, Docker, etc.) |
 | 6 | **Projetos** | `projects.tsx` | Portfolio, SaaS, Tickets, Barber Landing Page, Pro-Auth-API |
 | 7 | **Contato** | `contact.tsx` | Email e WhatsApp com links diretos |
